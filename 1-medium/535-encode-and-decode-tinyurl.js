@@ -44,6 +44,7 @@ var decode = function(shortUrl) {
 
  /**
   * Generate random key for the specified url
+  * @return {string}
   */
   function generateCode() {
       const potential = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
