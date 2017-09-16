@@ -1,3 +1,15 @@
+/**
+ * 535. Encode and Decode TinyURL
+ * URL: https://leetcode.com/problems/encode-and-decode-tinyurl/description/ 
+ * -------------
+ * | Rationale |
+ * -------------
+ * Due to the problem specs being rather vague with how to encode and decode the url
+ * we can assume that a simple key-value hash is enough to solve this problem. If this
+ * were an actual production environment, some sort of persistent storage would be 
+ * necessary and saving the entire URL would be overkill to say the least. 
+ */
+
 // declare an object that will store our key-value pairs
 var urls = {};
 
